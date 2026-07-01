@@ -1,0 +1,32 @@
+export const flights = [
+  {
+    id: "AFR001",
+    airline: "ethiopian",
+    airport: "add",
+    route: "ADD → NBO",
+    delay: 22,
+    onTime: 78,
+    status: "delayed",
+    date: "2026-06-27",
+  },
+  {
+    id: "AFR002",
+    airline: "ram",
+    airport: "cmn",
+    route: "CMN → DSS",
+    delay: 10,
+    onTime: 90,
+    status: "on-time",
+    date: "2026-06-27",
+  },
+  {
+    id: "AFR003",
+    airline: "kenya",
+    airport: "nbo",
+    route: "NBO → LOS",
+    delay: 35,
+    onTime: 65,
+    status: "delayed",
+    date: "2026-06-27",
+  },
+];
